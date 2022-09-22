@@ -1,0 +1,142 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+body1 {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+/* use in "My Websites Links!" title */
+h1 {
+  font-style: normal;
+  color: black;
+}
+/* use in "Contact with me?" title */
+h2 {
+  position: absolute;
+  top: 110px;
+  color: blue;
+}
+/* use in "Website I made:)" title */
+h3 {
+  position: absolute;
+  top: 260px;
+  color: green;
+}
+/* use in "link to other server" title */
+h4 {
+  position: absolute;
+  top: 470px;
+  color: orange;
+}
+/* use in "lLinks to external" title */
+h5 {
+  position: absolute;
+  top: 680px;
+  color: red;
+}
+/* when link clicked, it change color */
+a:visited {
+  color: #d10898;
+}
+/* move mouse over link, change color */
+a:hover {
+  COLOR: #39d0db; 
+  TEXT-DECORATION: none; 
+  font-weight: none
+}
+/* contact button style and color */
+button.contact{
+  background-color: #b0e5f5;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* websites button style and color */
+button.websites{
+  background-color: #d4dbc5;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* other server button style and color */
+button.other{
+  background-color: #f5e8d5;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* external link button style and color */
+button.exter{
+  background-color: #FCD3E4;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* page link button style and color */
+button.page{
+  background-color: #DDD8D8;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* go back to button style and color */
+button.goback{
+  background-color: #E5F9CA;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* contact box format and color */
+div.contact {
+  position: absolute;
+  top: 180px;
+  width: 250px;
+  height: 10ths 0px;
+  border: 2px dashed #44abc9;
+  border-left: 5px solid #44abc9;
+  background-color: #b0e5f5;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+} 
+/* link to other website box format and color */
+div.link {
+  position: relative;
+  top: 220px;
+  width: 350px;
+  height: 90px;
+  border: 2px dashed green;
+  border-radius: 20px;
+  background-color: #d4dbc5;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+} 
+/* link to other server box format and color */
+div.other {
+  position: relative;
+  top: 280px;
+  width: 350px;
+  height: 90px;
+  border: 2px dotted orange;
+  border-radius: 20px;
+  background-color: #f5e8d5;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+} 
+/* link to external server box format and color */
+div.external {
+  position: relative;
+  top: 350px;
+  width: 190px;
+  height: 30px;
+  border: 2px ridge #F472A9;
+  border-radius: 10px;
+  background-color: #FCD3E4;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+} 
