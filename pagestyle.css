@@ -1,0 +1,33 @@
+/* use in "Hello! Welcome to "About this page!" title */
+h1 {
+  font-style: normal;
+  color: black;
+}
+/* use in "Here are some other websites I made! Check it out!" title */
+h3 {
+  font-style: normal;
+  color: #EA6060;
+}
+/* go back link button style and color */
+button.goback{
+  background-color: #FFE3FB;
+  font-size: 14px;
+  border-radius: 12px;
+}
+/* when link clicked, it change color */
+a:visited {
+  color: #d10898;
+}
+/* move mouse over link, change color */
+a:hover {
+  COLOR: #71B4E9; 
+  TEXT-DECORATION: none; 
+  font-weight: none
+}
+
+/* go back link button style and color */
+button.goother{
+  background-color: #FDC379;
+  font-size: 14px;
+  border-radius: 12px;
+}
